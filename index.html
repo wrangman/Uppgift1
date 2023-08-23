@@ -3,44 +3,32 @@
 <head>
    <title>Uppgift 1</title>
    
-   <style>
-      body {
-         background-color: rgb(246, 240, 229);
-         
-         color: darkblue;
-         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      }
-
-      html {
-         scroll-behavior: smooth;
-      }
-
-      h1 {
-
-         color: rebeccapurple;
-      }
-
-      p {
-         font-size: .6rem;
-      }
-
-      .column-style {
-         display: flex;
-         flex-direction: column;
-      }
-   </style>
+   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-   <h1 style="color: rgb(2, 91, 118);">Hello World</h1>
+<body id="back">
+   <h1>Hello World</h1>
 
    <p>Här kommer genomgång av olika länkar</p>
-   <h2>Länktyper</h2>
+   
+   <h2 id="links">Länktyper</h2>
 
    <div class="column-style">
+
    <!--ABSOLUT LÄNK-->
-   <a href="hej.html">Gå hem igen</a>
-   <a href="hej.html">Gå hem igen</a>
-   <a href="hej.html">Gå hem igen</a>
-</div>
+   <a href="http://www.youtube.com">Gå till Youtube</a>
+
+   <a href="http://www.unsplash.com">Gratisbilder</a>
+
+   <!-- RELATIV LÄNK -->
+   <img src="img/web.jpg" alt="web developer doing his thing">
+
+   <a href="about/about.html">About</a>
+   
+   <a href="#back">Tillbaka</a>
+   <a href="#links">Länkar</a>
+-
+   </div>
+
+
 </body>
 </html>
