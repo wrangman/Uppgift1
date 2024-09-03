@@ -1,18 +1,17 @@
 body {
    background-color: rgb(246, 240, 229);
 
-   color: darkblue;
+   color: rgb(0, 0, 67);
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
    font-size: 1.2em;
 }
 
-
-
-h1 {
+h1,
+h2,
+h3 {
    color: blue;
 }
-
 
 .column-style {
    display: flex;
