@@ -17,3 +17,81 @@ h3 {
    display: flex;
    flex-direction: column;
 }
+
+
+a:link {
+   color: orange;
+   text-underline-offset: 0.6em;
+   text-decoration-color: transparent;
+
+   transition: text-decoration-color 350ms ease-in-out,
+      text-underline-offset 350ms ease-in-out;
+
+}
+
+
+
+a:visited {
+   color: darkorange;
+}
+
+a:hover {
+   color: rgb(255, 0, 0);
+
+   text-underline-offset: 0.2em;
+   text-decoration-color: red;
+}
+
+a:active {
+   color: black;
+}
+
+
+img {
+   display: block;
+   /* block är viktigt så bilden inte hamnar mitt i texten eller i linje texten*/
+
+   max-width: 100%;
+   /* den ser till att anpassa bilden till skärmen och inte bli större än sin föräldrer*/
+
+   object-fit: cover;
+
+   font-style: italic;
+   color: gray;
+
+   border-radius: 2rem;
+
+   filter: saturate(150%);
+
+   transition: filter 250ms ease-in-out;
+
+}
+
+img:hover {
+   filter: saturate(200%);
+
+}
+
+.logo {
+   width: 36px;
+
+
+
+}
+
+img {
+   display: block;
+
+   max-width: 100%;
+
+   object-fit: cover;
+
+   font-style: italic;
+
+}
+
+.main-nav {
+   display: flex;
+   gap: 1rem;
+   align-items: center;
+}
