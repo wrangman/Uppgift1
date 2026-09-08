@@ -1,0 +1,50 @@
+html {
+   scroll-behavior: auto;
+}
+
+body {
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* image styling */
+
+img {
+   display: block;
+   object-fit: cover;
+
+   font-style: italic;
+   color: gray;
+
+   max-width: 100%;
+   
+}
+
+.logo {
+   width: 2rem;
+   height: 2rem;
+}
+
+.inline-image {
+   display: inline-block;
+   width: 2rem;
+   height: 2rem;
+}
+
+.default-image {
+   width: 320px;
+}
+
+/* text styling */
+
+h1 {
+
+   color: blue;
+   text-transform: uppercase;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+   font-weight: 500;
+
+   letter-spacing: 0.04rem;
+}
+

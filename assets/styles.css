@@ -1,0 +1,54 @@
+
+/* link styling */
+
+body {
+    background: #f6f6f6;
+}
+
+
+a:link {
+    color: rebeccapurple;
+    
+    white-space: nowrap;
+}
+
+
+a:visited {
+    color: green;
+}
+
+
+a:hover {
+    color: lightpink;
+}
+
+a:active {
+    color: darkmagenta;
+}
+
+
+
+.nav-link:link, .nav-link:visited {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: blue;
+
+    text-decoration: none;
+
+    transition: color 250ms ease-in-out;
+}
+
+.nav-link:hover {
+
+    color: lightskyblue;
+    text-decoration: underline;
+
+}
+
+.nav-link:active {
+    color: darkblue;
+}
+
+
+
+
